@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+height: 100vh;
+display: flex;
+flex-direction: column;
+
+}
+
+.header{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: aqua;
+height: 200px;
+
+}
+
+.main{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+background-color: crimson;
+flex-grow: 1;
+}
+
+.footer{
+    color: black;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height: 200px;
+}

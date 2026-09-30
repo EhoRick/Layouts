@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}    
+
+
+.nav {
+    background-color: violet;
+    height: 200vh;
+    width: 200px;
+    
+}
+
+.header {
+    background-color: rgb(255, 0, 0);
+    height: 200px;
+    width: 92.2%;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.article {
+    background-color: greenyellow;
+    height: 75%;
+    width: 75%;
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    left: 200px;
+    top: 200px;
+}
+
+.aside{
+    background-color: bisque;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    
+}
